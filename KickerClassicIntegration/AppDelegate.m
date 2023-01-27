@@ -6,6 +6,8 @@
 //
 
 #import "AppDelegate.h"
+#import <TaboolaSDK/TaboolaSDK.h>
+#import "Constants.h"
 
 @interface AppDelegate ()
 
@@ -15,7 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    TBLPublisherInfo *publisherInfo = [[TBLPublisherInfo alloc] initWithPublisherName:TBPublisher];
+    [Taboola initWithPublisherInfo:publisherInfo];
+
     return YES;
 }
 

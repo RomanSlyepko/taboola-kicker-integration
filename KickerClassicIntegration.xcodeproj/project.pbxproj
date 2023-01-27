@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41D833FF378229E49BD03429 /* Pods_KickerClassicIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B93961DBF16B019F24B7B5A /* Pods_KickerClassicIntegration.framework */; };
 		DCC5E5A42984064100E99F46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC5E5A32984064100E99F46 /* AppDelegate.m */; };
 		DCC5E5A72984064100E99F46 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC5E5A62984064100E99F46 /* SceneDelegate.m */; };
 		DCC5E5AA2984064100E99F46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC5E5A92984064100E99F46 /* ViewController.m */; };
@@ -14,9 +15,16 @@
 		DCC5E5AF2984064300E99F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC5E5AE2984064300E99F46 /* Assets.xcassets */; };
 		DCC5E5B22984064300E99F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC5E5B02984064300E99F46 /* LaunchScreen.storyboard */; };
 		DCC5E5B52984064300E99F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC5E5B42984064300E99F46 /* main.m */; };
+		DCC5E5BD298408CE00E99F46 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC5E5BC298408CE00E99F46 /* FeedViewController.m */; };
+		DCC5E5C0298408D600E99F46 /* WidgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC5E5BF298408D600E99F46 /* WidgetViewController.m */; };
+		DCC5E5C629840CD800E99F46 /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC5E5C529840CD800E99F46 /* UIView+Helper.m */; };
+		DCC5E5C929840D5500E99F46 /* UIColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC5E5C829840D5500E99F46 /* UIColor+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B93961DBF16B019F24B7B5A /* Pods_KickerClassicIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KickerClassicIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8723D5DFC4A4EB6CBCD73AEE /* Pods-KickerClassicIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickerClassicIntegration.debug.xcconfig"; path = "Target Support Files/Pods-KickerClassicIntegration/Pods-KickerClassicIntegration.debug.xcconfig"; sourceTree = "<group>"; };
+		9FDD27DABB1A5E748567D54C /* Pods-KickerClassicIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickerClassicIntegration.release.xcconfig"; path = "Target Support Files/Pods-KickerClassicIntegration/Pods-KickerClassicIntegration.release.xcconfig"; sourceTree = "<group>"; };
 		DCC5E59F2984064100E99F46 /* KickerClassicIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KickerClassicIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC5E5A22984064100E99F46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCC5E5A32984064100E99F46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +37,15 @@
 		DCC5E5B12984064300E99F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCC5E5B32984064300E99F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC5E5B42984064300E99F46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCC5E5BB298408CE00E99F46 /* FeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		DCC5E5BC298408CE00E99F46 /* FeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		DCC5E5BE298408D600E99F46 /* WidgetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WidgetViewController.h; sourceTree = "<group>"; };
+		DCC5E5BF298408D600E99F46 /* WidgetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WidgetViewController.m; sourceTree = "<group>"; };
+		DCC5E5C329840AA700E99F46 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		DCC5E5C429840CD800E99F46 /* UIView+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
+		DCC5E5C529840CD800E99F46 /* UIView+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
+		DCC5E5C729840D5500E99F46 /* UIColor+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Helper.h"; sourceTree = "<group>"; };
+		DCC5E5C829840D5500E99F46 /* UIColor+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41D833FF378229E49BD03429 /* Pods_KickerClassicIntegration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C688B705858CDBAD9FE2258 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B93961DBF16B019F24B7B5A /* Pods_KickerClassicIntegration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D21A09A8271EDB759419173 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8723D5DFC4A4EB6CBCD73AEE /* Pods-KickerClassicIntegration.debug.xcconfig */,
+				9FDD27DABB1A5E748567D54C /* Pods-KickerClassicIntegration.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DCC5E5962984064100E99F46 = {
 			isa = PBXGroup;
 			children = (
 				DCC5E5A12984064100E99F46 /* KickerClassicIntegration */,
 				DCC5E5A02984064100E99F46 /* Products */,
+				6D21A09A8271EDB759419173 /* Pods */,
+				6C688B705858CDBAD9FE2258 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +104,9 @@
 				DCC5E5A62984064100E99F46 /* SceneDelegate.m */,
 				DCC5E5A82984064100E99F46 /* ViewController.h */,
 				DCC5E5A92984064100E99F46 /* ViewController.m */,
+				DCC5E5CC29840E3000E99F46 /* Helpers */,
+				DCC5E5C2298408E600E99F46 /* Feed */,
+				DCC5E5C1298408DC00E99F46 /* Widget */,
 				DCC5E5AB2984064100E99F46 /* Main.storyboard */,
 				DCC5E5AE2984064300E99F46 /* Assets.xcassets */,
 				DCC5E5B02984064300E99F46 /* LaunchScreen.storyboard */,
@@ -76,6 +116,52 @@
 			path = KickerClassicIntegration;
 			sourceTree = "<group>";
 		};
+		DCC5E5C1298408DC00E99F46 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				DCC5E5BE298408D600E99F46 /* WidgetViewController.h */,
+				DCC5E5BF298408D600E99F46 /* WidgetViewController.m */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		DCC5E5C2298408E600E99F46 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				DCC5E5BB298408CE00E99F46 /* FeedViewController.h */,
+				DCC5E5BC298408CE00E99F46 /* FeedViewController.m */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		DCC5E5CA29840E2100E99F46 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				DCC5E5C429840CD800E99F46 /* UIView+Helper.h */,
+				DCC5E5C529840CD800E99F46 /* UIView+Helper.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		DCC5E5CB29840E2800E99F46 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				DCC5E5C729840D5500E99F46 /* UIColor+Helper.h */,
+				DCC5E5C829840D5500E99F46 /* UIColor+Helper.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		DCC5E5CC29840E3000E99F46 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DCC5E5C329840AA700E99F46 /* Constants.h */,
+				DCC5E5CA29840E2100E99F46 /* UIView */,
+				DCC5E5CB29840E2800E99F46 /* UIColor */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCC5E5B82984064300E99F46 /* Build configuration list for PBXNativeTarget "KickerClassicIntegration" */;
 			buildPhases = (
+				4A4A22C6798AE52D3E2BFBDB /* [CP] Check Pods Manifest.lock */,
 				DCC5E59B2984064100E99F46 /* Sources */,
 				DCC5E59C2984064100E99F46 /* Frameworks */,
 				DCC5E59D2984064100E99F46 /* Resources */,
+				93ECA89BD2503BA0E4044367 /* [CP] Embed Pods Frameworks */,
+				F673ED5F61FA1EB3539CAD97 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -111,7 +200,7 @@
 				};
 			};
 			buildConfigurationList = DCC5E59A2984064100E99F46 /* Build configuration list for PBXProject "KickerClassicIntegration" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -141,15 +230,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A4A22C6798AE52D3E2BFBDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KickerClassicIntegration-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93ECA89BD2503BA0E4044367 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KickerClassicIntegration/Pods-KickerClassicIntegration-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KickerClassicIntegration/Pods-KickerClassicIntegration-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KickerClassicIntegration/Pods-KickerClassicIntegration-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F673ED5F61FA1EB3539CAD97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KickerClassicIntegration/Pods-KickerClassicIntegration-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KickerClassicIntegration/Pods-KickerClassicIntegration-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KickerClassicIntegration/Pods-KickerClassicIntegration-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCC5E59B2984064100E99F46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DCC5E5AA2984064100E99F46 /* ViewController.m in Sources */,
+				DCC5E5BD298408CE00E99F46 /* FeedViewController.m in Sources */,
+				DCC5E5C0298408D600E99F46 /* WidgetViewController.m in Sources */,
+				DCC5E5C929840D5500E99F46 /* UIColor+Helper.m in Sources */,
 				DCC5E5A42984064100E99F46 /* AppDelegate.m in Sources */,
 				DCC5E5B52984064300E99F46 /* main.m in Sources */,
 				DCC5E5A72984064100E99F46 /* SceneDelegate.m in Sources */,
+				DCC5E5C629840CD800E99F46 /* UIView+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +439,7 @@
 		};
 		DCC5E5B92984064300E99F46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8723D5DFC4A4EB6CBCD73AEE /* Pods-KickerClassicIntegration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +467,7 @@
 		};
 		DCC5E5BA2984064300E99F46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FDD27DABB1A5E748567D54C /* Pods-KickerClassicIntegration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
