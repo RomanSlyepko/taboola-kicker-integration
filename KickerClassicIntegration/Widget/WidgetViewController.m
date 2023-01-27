@@ -37,9 +37,9 @@
                                                       delegate:self
                                                     scrollView:self.collectionView];
 
-    self.taboolaWidgetUnit1 = [self.classicPage createUnitWithPlacementName:@"Kicker Testing" mode:TBWidgetMode];
-    self.taboolaWidgetUnit2 = [self.classicPage createUnitWithPlacementName:@"Kicker Testing" mode:TBWidgetMode];
-    self.taboolaWidgetUnit3 = [self.classicPage createUnitWithPlacementName:@"Kicker Testing" mode:TBWidgetMode];
+    self.taboolaWidgetUnit1 = [self.classicPage createUnitWithPlacementName:@"Kicker Testing 1" mode:TBWidgetMode];
+    self.taboolaWidgetUnit2 = [self.classicPage createUnitWithPlacementName:@"Kicker Testing 2" mode:TBWidgetMode];
+    self.taboolaWidgetUnit3 = [self.classicPage createUnitWithPlacementName:@"Kicker Testing 3" mode:TBWidgetMode];
 
     [self.taboolaWidgetUnit1 fetchContent];
     [self.taboolaWidgetUnit2 fetchContent];
