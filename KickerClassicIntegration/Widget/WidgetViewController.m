@@ -97,6 +97,11 @@
     return nil;
 }
 
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
+    [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
+    [self.collectionView.collectionViewLayout invalidateLayout];
+}
+
 #pragma mark - TBLClassicPageDelegate
 
 - (void)classicUnit:(UIView *)classicUnit didLoadOrResizePlacementName:(NSString *)placementName height:(CGFloat)height placementType:(PlacementType)placementType {
