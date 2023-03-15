@@ -131,8 +131,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="wm6-bg-CJg" secondAttribute="bottom" id="0Wl-Sj-y4a"/>
-                            <constraint firstItem="wm6-bg-CJg" firstAttribute="trailing" secondItem="xQ4-bP-ees" secondAttribute="trailing" id="2wF-Nc-Ybp"/>
-                            <constraint firstItem="wm6-bg-CJg" firstAttribute="leading" secondItem="xQ4-bP-ees" secondAttribute="leading" id="ICI-4b-xCk"/>
+                            <constraint firstItem="wm6-bg-CJg" firstAttribute="leading" secondItem="M3i-bE-bRo" secondAttribute="leading" id="6vJ-8c-cai"/>
+                            <constraint firstAttribute="trailing" secondItem="wm6-bg-CJg" secondAttribute="trailing" id="jka-0O-FoK"/>
                             <constraint firstItem="wm6-bg-CJg" firstAttribute="top" secondItem="xQ4-bP-ees" secondAttribute="top" id="uaF-Er-7k1"/>
                         </constraints>
                     </view>
